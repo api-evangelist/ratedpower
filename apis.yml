@@ -1,7 +1,30 @@
 aid: ratedpower
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ratedpower.png
 name: RatedPower
-description: RatedPower is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  RatedPower, part of Enverus (ENVERUS RATEDPOWER S.L.U., Madrid, Spain), is a
+  cloud software platform for the design and engineering of utility-scale
+  renewable energy projects. Its pvDesign product automates solar photovoltaic
+  (PV) plant layout, energy-yield simulation, battery energy storage system
+  (BESS) and hybrid plant design, substation and grid-connection engineering,
+  earthwork estimating, and bankable proposal documentation. The platform is
+  delivered as a browser-based SaaS application (login at ratedpower.enverus.com)
+  and reports 64,000+ projects designed and 5.1 TW of simulated capacity. No
+  public developer API, OpenAPI definition, SDK, or developer portal is
+  published; enterprise automation access exists only behind the authenticated
+  application. This profile was seeded as a Techstars portfolio lead and has been
+  run through the API Evangelist enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/ratedpower/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Solar
+- Renewable Energy
+- Photovoltaic
+- Energy Storage
+- BESS
+- Engineering
+- Design Software
+- Cleantech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://ratedpower.com/
+- type: Login
+  url: https://ratedpower.enverus.com/
+- type: Pricing
+  url: https://ratedpower.com/pricing/
+- type: Blog
+  url: https://ratedpower.com/blog/
+- type: HelpCenter
+  url: https://help.ratedpower.com/
+- type: Support
+  url: https://ratedpower.com/contact/
+- type: TermsOfService
+  url: https://ratedpower.com/legal/
+- type: PrivacyPolicy
+  url: https://ratedpower.com/legal/privacy/
+- type: DomainSecurity
+  url: security/ratedpower-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
